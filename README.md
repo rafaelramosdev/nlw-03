@@ -52,23 +52,60 @@ $ git clone https://github.com/rafaelramosdev/nlw-03-omnistack
 $ cd nlw-03-omnistack
 ```
 
-Para iniciá-lo, siga os passos abaixo:
+A aplicação é dividida em três partes: web, mobile e backend, a versão web e o aplicativo mobile precisam que o backend esteja sendo executado para funcionar. Para iniciar a aplicação, siga os passos abaixo:
+
+## Rodando a versão backend
+
 ```bash
-# Instalar as dependências
-$ yarn
+# Entra na pasta da versão backend
+$ cd backend
 
-#ou
-
+# Instala as dependências
 $ npm install
 
-# Iniciar o projeto
-$ yarn start
+# Inicia o server
+$ npm run dev
 
-#ou
-
-$ npm start
+# O servidor estará ouvindo a porta 3333 e estará disponível no endereço http://localhost:3333
 ```
+
+## Rodando a versão web
+
+```bash
+# Entra na pasta da versão web
+$ cd web
+
+# Instala as dependências
+$ npm install
+
+# Inicia o website
+$ npm run start
+```
+
 O website estará disponível no seu navegador pelo endereço [`http://localhost:3000`](http://localhost:3000).
+
+## Rodando a versão mobile
+
+```bash
+# Entra na pasta da versão mobile
+$ cd mobile
+
+# Instala as dependências
+$ npm install
+
+# Inicia o aplicativo
+$ expo start
+
+# Se tiver algum problema com as fontes, execute o comando:
+$ expo install expo-font @expo-google-fonts/nunito
+```
+
+Com seu smartphone, escaneie o QRCode que aparecerá no terminal ou na página que abrir utilizando o aplicativo Expo.
+
+É necessário ter o aplicativo Expo Go instalado no seu celular.
+
+- [Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
+- [App Store](https://apps.apple.com/br/app/expo-go/id982107779)
 
 ## 📄 Licença
 
