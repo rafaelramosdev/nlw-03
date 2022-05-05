@@ -32,7 +32,7 @@ O Happy é uma aplicação que conecta pessoas à casas de acolhimento instituci
 
 O Happy foi desenvolvido com motivação pelo Dia das Crianças, pensando em aproximar e conectar pessoas à essas crianças, para tornar o dia delas ainda mais especial.
 
-Este é um projeto desenvolvido durante a **[Next Level Week Together](https://nextlevelweek.com/)**, apresentada nos dias 12 a 16 de Outubro de 2020.
+Este é um projeto desenvolvido durante a **[Next Level Week #03](https://nextlevelweek.com/)**, apresentada nos dias 12 a 16 de Outubro de 2020.
 
 ## 🔖 Layout
 
